@@ -1,0 +1,68 @@
+.label {
+  // font-family: Maven Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 15px;
+  color: rgba(var(--text-first), 1);
+}
+.notice {
+  height: 18px;
+  // font-family: 'Maven Pro';
+  text-align: right;
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(var(--btn-save), 0.6);
+  cursor: not-allowed;
+  display: flex;
+  align-items: center;
+}
+.allowed {
+  cursor: pointer;
+  color: rgba(var(--btn-save), 0.9) !important;
+}
+.mineBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 48px;
+  background: rgba(var(--btn-save), 0.3);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    color: rgba(var(--bg-base), 1);
+    background: rgba(var(--btn-save));
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 26px;
+    line-height: 58px;
+  }
+  .formCon {
+    width: 90% !important;
+  }
+  .inputcon {
+    width: 100% !important;
+  }
+  .tips {
+    width: 100%;
+  }
+  .codeCon {
+    height: auto !important;
+  }
+  .textCon {
+    width: 100% !important;
+  }
+  .text16 {
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+  }
+}

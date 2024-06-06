@@ -1,0 +1,74 @@
+.input {
+  height: 48px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+//  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: rgba(228, 224, 224, 0.4);
+  font-size: 18px !important;
+  :global {
+    // .ant-input {
+    //   font-size: 18px;
+    //   // background-color: transparent !important;
+    // }
+    .ant-input-prefix{
+      font-size: 24px;
+    }
+ 
+  }
+}
+.inputNumber{
+  :global {
+    .ant-input-number-handler-wrap{
+      opacity: 1 !important;
+      background: transparent;
+      // border: 0 !important;
+    }
+     .ant-input-number{
+      // border: 0 !important;
+
+    }
+    .ant-input-number-input{
+      height: 35px !important;
+    }
+    .ant-input-number-handler-down-inner{
+      // background: #000;
+      background: transparent !important;
+
+    }
+    .ant-input-number-handler{
+      // border: 0 !important;
+    }
+  }
+
+}
+.popover {
+  padding: 0;
+  :global {
+    .ant-popover-arrow {
+      display: none;
+    }
+    .ant-popover-inner-content {
+      padding: 20px 8px;
+    }
+    .ant-popover-inner {
+      // margin-top: 2px;
+      // border-radius: 10px;
+      // width: 360px;
+      // width: 100%;
+      // height: 445px;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding: 20px 0;
+      border: solid 1px #a9a9a9;
+      background-color: #fff;
+    }
+  }
+}

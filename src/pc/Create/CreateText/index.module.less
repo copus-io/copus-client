@@ -1,0 +1,94 @@
+.tab-wrap {
+    display: flex;
+
+    :global {
+        .tab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 41px;
+            font-size: 20px;
+            line-height: 26px;
+            color: #666;
+            cursor: pointer;
+            padding: 5px 25px 0 25px;
+            border-radius: 9px 9px 0 0;
+
+            &.active {
+                font-weight: bold;
+            }
+
+            &.text.active {
+                background: rgba(255, 169, 2, 0.1);
+            }
+
+            &.image.active {
+                background: rgba(234, 125, 183, 0.1);
+            }
+
+            &.audio.active {
+                background: rgba(116, 179, 206, 0.1);
+            }
+
+            &.video.active {
+                background: rgba(43, 134, 73, 0.1);
+            }
+        }
+    }
+}
+
+.text-editor-main,
+.image-editor-main,
+.audio-editor-main,
+.video-editor-main {
+    :global {
+        .toolbar {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+}
+
+.text-editor-main {
+    :global {
+        .toolbar {
+            background: rgba(255, 169, 2, 0.1);
+        }
+    }
+}
+
+.image-editor-main {
+    :global {
+        .toolbar {
+            background: rgba(234, 125, 183, 0.1);
+        }
+
+        i.image {
+            background-color: rgba(234, 125, 183, 1)
+        }
+    }
+}
+
+.audio-editor-main {
+    :global {
+        .toolbar {
+            background: rgba(116, 179, 206, 0.1);
+        }
+
+        i.audio {
+            background-color: rgba(116, 179, 206, 1)
+        }
+    }
+}
+
+.video-editor-main {
+    :global {
+        .toolbar {
+            background: rgba(43, 134, 73, 0.1);
+        }
+
+        i.video {
+            background-color: rgba(43, 134, 73, 1)
+        }
+    }
+}

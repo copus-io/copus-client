@@ -1,0 +1,24 @@
+{
+  "extends": ["next/core-web-vitals", "react-app"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-template-curly-in-string": "off",
+    "react/jsx-no-target-blank": "off",
+    "max-lines": ["warn", 2000],
+    "spaced-comment": ["warn", "always"],
+    "no-var": "error",
+    "react/jsx-pascal-case": "error",
+    "react/no-unescaped-entities": "off",
+    // "react/self-closing-comp": "error",
+    "jsx-a11y/alt-text": "off",
+    "@next/next/no-img-element": "off",
+    "@typescript-eslint/naming-convention": [
+      2,
+      {
+        "selector": "typeLike",
+        "format": ["PascalCase"]
+      }
+    ]
+  }
+}

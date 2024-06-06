@@ -1,0 +1,39 @@
+.editor {
+  top: 35px !important;
+  right: 30px !important;
+  left: unset !important;
+  :global {
+    .ant-popover-inner,
+    .ant-popover-content {
+      border-radius: 2px;
+    }
+    .ant-popover-inner-content {
+      padding: 0 !important;
+    }
+    .ant-space-item {
+      padding: 5px 0;
+    }
+    .ant-popover-arrow {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .msg {
+    display: none !important;
+  }
+  .popover {
+    right: 20px !important;
+    left: unset !important;
+    :global {
+      .ant-popover-inner,
+      .ant-popover-content {
+        margin-right: 0px;
+      }
+      .ant-popover-inner-content {
+        padding: 0 !important;
+      }
+    }
+  }
+}

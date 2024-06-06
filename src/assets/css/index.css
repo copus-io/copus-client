@@ -1,0 +1,19 @@
+.theme-nord {
+  --color-primary: rgba(255, 0, 0, 1);
+}
+.theme-dark {
+  --color-primary: rgba(0, 0, 0, 1);
+}
+
+/* 全局弹框样式 */
+.ant-modal-content,.ant-popover-inner{
+  background-color: rgb(var(--bg-modelbg));
+  padding: 0;
+}
+.ant-modal-confirm-body .ant-modal-confirm-title{
+  color: rgb(var(--text-first));
+}
+
+.ant-message {
+  z-index: 9999 !important;
+ }

@@ -1,0 +1,124 @@
+.buttonSaveDraft {
+  border: 1px solid rgba(var(--text-second), 0.6);
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+  width: 158px;
+  font-size: 20px;
+  line-height: 140%;
+  cursor: pointer;
+  color: rgba(var(--text-first), 1);
+  height: 48px;
+  transition: all 0.4s ease-in-out;
+}
+.applyTag {
+  height: 23px;
+  font-size: 16px;
+  margin-right: 20px;
+  line-height: 130%; /* 18.2px */
+}
+.titleInput {
+  width: 100%;
+  // max-width: 800px;
+  // font-family: Maven Pro;
+  padding-left: 0px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: rgba(var(--text-first), 1);
+}
+.titleInput::placeholder {
+  color: rgba(var(--text-title-placehold), 1);
+  // color: red;
+}
+.subTitleInput {
+  width: calc(100% - 2px);
+  max-width: 550px;
+  // font-family: Maven Pro;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  margin-top: 20px;
+  min-height: 30px;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  overflow: auto !important;
+  // white-space: nowrap;
+}
+.subTitleInput::placeholder {
+  // color: rgba(var(--text-second), 0.6);
+  color: rgba(var(--text-title-placehold), 1);
+}
+.addImageContainer {
+  display: flex;
+  align-items: center;
+  /* width: 248px; */
+  height: 45px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: 1px solid rgba(var(--text-second), 0.6);
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+}
+// .coverImage {
+//   // max-width: 650px;
+//   /* height: 250px; */
+//   height: 150px;
+//   width: 150px;
+//   margin-top: 20px;
+// }
+.inspiredContainer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.remove-inspiration {
+  display: none;
+  width: 35px;
+  height: 44px;
+  cursor: pointer;
+}
+.addMoreButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 142px;
+  height: 44px;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-left: 0px;
+  cursor: pointer;
+  background: rgba(var(--bg-base), 1);
+  border: 1px solid rgba(var(--text-second), 0.6);
+}
+
+.publistInput {
+  :global {
+    .ant-divider .ant-divider-horizontal {
+      background-color: rgba(var(--text-second), 0.6);
+      // min-height: 600px;
+    }
+    .ant-input {
+      color: rgba(var(--text-first), 1);
+      // color: red !important;
+    }
+    .ant-input::placeholder {
+      // color: rgba(var(--text-third), 0.6);
+      // color: #5e5e5e;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .applyTag {
+    height: 18px;
+    margin-right: 12px;
+
+    font-size: 14px;
+    line-height: 130%; /* 18.2px */
+  }
+}

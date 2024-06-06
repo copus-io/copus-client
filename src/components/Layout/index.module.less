@@ -1,0 +1,55 @@
+.menu {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 0 0 147px;
+  border-right: solid 1px #e4e0e0;
+}
+.notification {
+  position: fixed;
+  top: 10px;
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100px;
+  height: auto;
+  left: 55%;
+  transform: translateX(-50%);
+  margin-inline-start: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+@media (max-width: 1000px) {
+  .create {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .Logo {
+    width: 138px;
+  }
+  .menu {
+    padding-left: 60px;
+    padding-right: 20px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    top: 16px;
+    left: 15px;
+  }
+  .loginOrSin {
+    display: none;
+  }
+  .login {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+}

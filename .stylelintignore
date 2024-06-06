@@ -1,0 +1,8 @@
+node_modules
+*.md
+build
+dist
+config
+scripts
+.husky
+.vscode

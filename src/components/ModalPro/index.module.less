@@ -1,0 +1,73 @@
+.modal {
+  :global {
+    .ant-modal-header {
+      border-radius: 10px 10px 0 0;
+      border: none;
+      font-size: 25px;
+      line-height: 28px;
+      padding: 15px;
+      border-bottom: 1px solid rgba(var(--text-second), 0.6);
+    }
+
+    .ant-modal-content {
+      border-radius: 10px;
+      padding: 0 !important;
+    }
+
+    .ant-modal-title {
+      color: rgba(var(--text-first), 1) !important;
+    }
+
+    .ant-modal-body {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 20px;
+      padding-top: 0;
+    }
+
+    .ant-modal-footer {
+      border: none;
+    }
+
+    .ant-modal-close {
+      top: 24px;
+      right: 24px;
+      color: rgba(var(--text-first), 1) !important;
+    }
+  }
+}
+
+.modalPro {
+  :global {
+    .ant-modal .ant-modal-content {
+      background-color: rgb(var(--bg-modelbg));
+    }
+
+    .ant-modal-header {
+      background-color: rgb(var(--bg-modelbg));
+    }
+
+    .ant-modal-close {
+      color: rgb(var(--text-first));
+    }
+
+    .ant-modal-body {
+      overflow: hidden;
+    }
+
+    .input,
+    .textArea,
+    .ant-input {
+      background-color: rgb(var(--input-base));
+    }
+
+    .ant-segmented-item {
+      color: rgb(var(--text-first));
+    }
+
+    .ant-segmented-item-selected {
+      color: #000;
+      background-color: #fff;
+    }
+  }
+}

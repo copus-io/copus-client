@@ -1,0 +1,60 @@
+.container {
+  // width: calc(100vw - 40px);
+  // background-color: red;
+  .title {
+    text-align: center;
+    /* h2 */
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  .input {
+    width: 394px;
+    height: 48px;
+    border: 1px solid rgba(var(--text-second), 0.6);
+    box-shadow: none !important;
+    font-size: 16px;
+    border-radius: 20px;
+    &:hover,
+    &:focus {
+      border: 1px solid rgba(var(--text-second), 0.6) !important;
+    }
+  }
+}
+
+.byclickView {
+  width: 400px;
+  display: flex;
+}
+
+@media (max-width: 430px) {
+  .container {
+    // width: calc(100vw - 40px);
+    // background-color: red;
+    .title {
+      text-align: center;
+      /* h2 */
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px;
+    }
+    .input {
+      width: 100%;
+      height: 48px;
+      border: 1px solid rgba(var(--text-second), 0.6);
+      box-shadow: none !important;
+      font-size: 16px;
+      border-radius: 20px;
+      &:hover,
+      &:focus {
+        border: 1px solid rgba(var(--text-second), 0.6) !important;
+      }
+    }
+  }
+  .byclickView {
+    width: 100%;
+    display: inline;
+  }
+}

@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+  .hide1000 {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+ 
+}
+.carousel {
+  // top: 35px !important;
+  // right: 30px !important;
+  // left: unset !important;
+  :global {
+    .slick-dots{
+      position:relative;
+      margin-right: 0;
+      margin-top: 10px;
+
+      width: 100%;
+      justify-content: flex-start !important;
+      .slick-active{
+        border: #ff0000 !important; /* 自定义活动点颜色 */
+        border: 2px solid #ff0000 !important;
+  
+    }
+    }
+
+    .slick-dots li  {
+      margin-top: 25px;
+      box-sizing: border-box;
+      margin-left: 0;
+      width: 80px !important;
+      height: 80px !important;
+      margin-right: 20px;
+      position: relative;
+      display: flex;
+      background: #fff !important;
+      }  
+  }
+}

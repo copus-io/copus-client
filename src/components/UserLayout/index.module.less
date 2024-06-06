@@ -1,0 +1,52 @@
+.menu {
+  width: 340px;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+  border-right: solid 1px #e0e0e0;
+  scrollbar-width: none;
+}
+
+@media (max-width: 1000px) {
+  .create {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .Logo {
+    width: 138px;
+  }
+  .menu {
+    padding-left: 60px;
+    padding-right: 20px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    top: 16px;
+    left: 15px;
+  }
+  .loginOrSin {
+    display: none;
+  }
+  .login {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+}
+
+.defaultBanner {
+  height: 100%;
+  background: #e0e0e07e;
+  background-size: cover;
+  background-image: url(../../assets/media/svg2/ic-banner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}

@@ -1,0 +1,37 @@
+.input {
+  height: 48px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  //  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: rgba(228, 224, 224, 0.4);
+  font-size: 16px !important;
+  :global {
+    // .ant-input {
+    //   font-size: 18px;
+    //   // background-color: transparent !important;
+    // }
+    .ant-input-prefix {
+      font-size: 24px;
+    }
+  }
+}
+
+.submitted {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #696969;
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: solid 1px #a9a9a9;
+  background-color: rgba(228, 224, 224, 0.4);
+  user-select: none;
+  cursor: not-allowed;
+}

@@ -1,0 +1,19 @@
+.overlay {
+  z-index: 1000;
+  padding-top: 8px !important;
+  :global {
+    .ant-popover-inner-content {
+      padding: 0;
+      border-radius: 10px !important;
+      background-color: rgb(var(--bg-modelbg));
+      overflow: hidden;
+    }
+    .ant-popover-content,
+    .ant-popover-inner {
+      border-radius: 10px !important;
+    }
+    .ant-popover-arrow {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.editor {
+  padding-top: 0 !important;
+  :global {
+    .ant-popover-inner,
+    .ant-popover-content {
+      border-radius: 2px;
+    }
+    .ant-popover-inner-content {
+      padding: 0 !important;
+    }
+    .ant-popover-placement-bottom {
+    }
+    .ant-space-item {
+      padding: 5px 0;
+    }
+    .ant-popover-arrow {
+      display: none;
+    }
+  }
+}
+.boxDiv:hover {
+  font-size: 14px;
+  background-color: rgba(228, 224, 224, 0.4);
+  font-weight: 600;
+}
+@media (max-width: 750px) {
+  .msg {
+    display: none !important;
+  }
+  .popover {
+    right: 20px !important;
+    left: unset !important;
+    :global {
+      .ant-popover-inner,
+      .ant-popover-content {
+        margin-right: 0px;
+      }
+      .ant-popover-inner-content {
+        padding: 0 !important;
+      }
+    }
+  }
+}

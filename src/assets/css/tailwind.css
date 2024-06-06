@@ -1,0 +1,12 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply border-border border text-first flex items-center shadow justify-center cursor-pointer hover:shadow-hover;
+  }
+
+  .link-underline {
+    @apply underline hover:underline cursor-pointer;
+  }
+}

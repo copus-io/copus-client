@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "key": "cytoscape",
+      "label": "Cytoscape",
+      "tag": "Tool",
+      "URL": "https://en.wikipedia.org/wiki/Cytoscape",
+      "cluster": "0",
+      "x": 1.111111111111,
+      "y": 1.111111111111,
+      "score": 4
+    },
+    {
+      "key": "graph drawing",
+      "label": "Graph drawing",
+      "tag": "Chart type",
+      "URL": "https://en.wikipedia.org/wiki/Graph%20drawing",
+      "cluster": "0",
+      "x": 1.1111111111112,
+      "y": 1.1111111111112,
+      "score": 4
+    },
+    {
+      "key": "microsoft excel",
+      "label": "Microsoft Excel",
+      "tag": "Field",
+      "URL": "https://en.wikipedia.org/wiki/Microsoft%20Excel",
+      "cluster": "0",
+      "x": 1.11111111111130,
+      "y": 1.1111111111113,
+      "score": 4
+    },
+    {
+      "key": "microsoft excel1",
+      "label": "Microsoft Excel1",
+      "tag": "Field",
+      "URL": "https://en.wikipedia.org/wiki/Microsoft%20Excel",
+      "cluster": "0",
+      "x": 1.1111111111111,
+      "y": 1.1111111111113,
+      "score": 4
+    },
+    {
+      "key": "microsoft excel3",
+      "label": "Microsoft Excel3",
+      "tag": "Chart type",
+      "URL": "https://en.wikipedia.org/wiki/Microsoft%20Excel",
+      "cluster": "0",
+      "x": 1.1111111111115,
+      "y": 1.1111111111113,
+      "score": 3
+    }
+  ],
+  "edges": [
+    [
+      "cytoscape",
+      "graph drawing"
+    ],
+    [
+      "graph drawing",
+      "microsoft excel"
+    ],
+    [
+      "cytoscape",
+      "microsoft excel1"
+    ],
+    [
+      "microsoft excel3",
+      "microsoft excel1"
+    ]
+  ],
+  "clusters": [
+    {
+      "key": "0",
+      "color": "#6c3e81",
+      "clusterLabel": "Graph theory"
+    }
+  ],
+  "tags": [
+    {
+      "key": "Chart type",
+      "image": "charttype.svg"
+    },
+    {
+      "key": "Field",
+      "image": "field.svg"
+    },
+    {
+      "key": "Tool",
+      "image": "tool.svg"
+    }
+  ]
+}
